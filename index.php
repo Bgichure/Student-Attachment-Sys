@@ -22,7 +22,7 @@
       <div class="overlay"></div>
       <div class="description-content">
         <h2>Welcome to ACE-CAMPUS</h2>
-        <p>Streamlining Industrial Attachment Assessments</p>
+        <p>Streamlining Industrial Attachment Assessment</p>
         <p class="description">ACE-CAMPUS is a revolutionary web-based application designed to modernize and enhance the assessment process for industrial attachments within the campus setting. It acts as a comprehensive and innovative solution that bridges the gap between theory and practical application, fostering a collaborative and mentorship-oriented environment for students, industrial supervisors, lecturers, and administrators.</p>
       </div>
     </section>
