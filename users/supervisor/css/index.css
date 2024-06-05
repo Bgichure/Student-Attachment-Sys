@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background: #f7f7f7;
+  overflow-x: hidden;
+}
+.main {
+  width: 100%;
+  border-radius: 16px;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: #277510;
+  /* box-shadow: 0px 12px 21px 1px rgba(0, 0, 0, 0.88);
+  -webkit-box-shadow: 0px 12px 21px 1px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: 0px 12px 21px 1px rgba(0, 0, 0, 0.88); */
+}
+
+header .logo {
+  color: #fff;
+}
+
+header .nav {
+  display: flex;
+}
+header .nav a {
+  margin-right: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+header .nav a:hover {
+  text-decoration: none;
+  color: #277510;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  width: auto;
+}
+
+.form {
+  background-color: #fff;
+  padding: 50px 20px;
+}
+
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  font-family: Arial, sans-serif; /* Default font */
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  position: relative;
+  background-color: #fff; /* White background for sidebar */
+  border-right: 1px solid #ccc; /* Border on the right side */
+  padding: 20px; /* Padding inside the sidebar */
+}
+
+.welcome {
+  font-size: 1.5rem;
+  text-align: center; /* Center-align the text */
+  color: #333; /* Dark text color */
+  margin-bottom: 20px; /* Add margin below the welcome text */
+}
+
+.side-nav {
+  list-style: none; /* Remove bullet points from the list */
+  padding: 0; /* Remove default padding from the list */
+  margin: 0; /* Remove default margin from the list */
+}
+
+.side-nav-item {
+  padding: 10px; /* Padding around each navigation item */
+  text-decoration: none;
+  color: #000;
+  display: block; /* Display navigation items as blocks */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.side-nav-item:hover {
+  background-color: #ccc; /* Light gray background on hover */
+}
+
+.fa {
+  margin-right: 10px; /* Add margin to the right of font-awesome icons */
+}
+
+@media screen and (min-width: 800px) {
+  .main,
+  header {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
